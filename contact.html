@@ -16,61 +16,61 @@
                 <div class="nav-links" id="navLinks">
                     <i class="fa fa-times" onclick="hideMenu()"></i>
                     <ul>
-                        <li><a href="">HOME</a></li>
-                        <li><a href="">ABOUT</a></li>
-                        <li><a href="">COURSE</a></li>
-                        <li><a href="">BLOG</a></li>
-                        <li><a href="">CONTACT</a></li>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="courses.html">COURSE</a></li>
+                        <li><a href="blog.html">BLOG</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
                     </ul>
                 </div>
                 <i class="fa fa-bars" onclick="showMenu()"></i>
             </nav>
-            <h1>Our Courses</h1>
+            <h1>Contact Us</h1>
         </section>
 
-        <!------------------ Courses ------------------>
+        <!------------------ Contact Us ------------------>
 
-        <section class="course">
-            <h1>Courses We Offer</h1>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-            
-            <div class="row">
-                <div class="coures-col">
-                    <h3>Inermediate</h3>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem voluptatum, voluptate blanditiis cupiditate accusamus labore officia!</p>
-                </div>
-                <div class="coures-col">
-                    <h3>Degree</h3>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem voluptatum, voluptate blanditiis cupiditate accusamus labore officia!</p>
-                </div>
-                <div class="coures-col">
-                    <h3>Post Graduation</h3>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem voluptatum, voluptate blanditiis cupiditate accusamus labore officia!</p>
-                </div>
-            </div>
+        <section class="location">
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d497699.99593526905!2d77.35142532023386!3d12.953848452352192!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1670c9b44e6d%3A0xf8dfc3e8517e4fe0!2sBengaluru%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1627118040364!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
         </section>
-
-        <!--------- Facilities --------->
-
-        <section class="facilities">
-            <h1>Our Facilities</h1>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+        
+        <section class="contact-us">
 
             <div class="row">
-                <div class="facilities-col">
-                    <img src="images/library.png" alt="library">
-                    <h3>World Class Library</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, voluptates?</p>
+                <div class="contact-col">
+                    <div>
+                        <i class="fa fa-home"></i>
+                        <span>
+                            <h5>XYZ Road, ABC Building</h5>
+                            <p>Bangalore, Karnataka, IN</p>
+                        </span>
+                    </div>
+                    <div>
+                        <i class="fa fa-phone"></i>
+                        <span>
+                            <h5>+1 0123456789</h5>
+                            <p>Monday to Saturday, 10AM to 6pm</p>
+                        </span>
+                    </div>
+                    <div>
+                        <i class="fa fa-envelope-o"></i>
+                        <span>
+                            <h5>montyaction@gmail.com</h5>
+                            <p>Email us your query</p>
+                        </span>
+                    </div>
                 </div>
-                <div class="facilities-col">
-                    <img src="images/basketball.png" alt="basketball Play Ground">
-                    <h3>Largest Play Ground</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, voluptates?</p>
-                </div>
-                <div class="facilities-col">
-                    <img src="images/cafeteria.png" alt="cafeteria">
-                    <h3>Tasty and Healthy Food</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, voluptates?</p>
+                <div class="contact-col">
+
+                    <form action="form_handler.php" method="POST">
+                        <input type="text" name="name" placeholder="Type your name" required>
+                        <input type="email" name="email" placeholder="Type Email address" required>
+                        <input type="text" name="subject" placeholder="Type your subject" required>
+                        <textarea rows="8" name="message" placeholder="Type Message"></textarea>
+                        <button type="submit" class="hero-btn red-btn">Send Message</button>
+                    </form>
                 </div>
             </div>
         </section>
